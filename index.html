@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizarra</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="container">
+        <canvas id="pizarra" class="pizarra first-color"></canvas>
+        <div id="paleta" class="sidebar third-color container">
+            <section class="sidebar-content container">
+                <h2>Colores</h2>
+                <button type="button" class="box box1 circulo" id="btnAzul"></button>
+                <button type="button" class="box box2 circulo" id="btnMorado"></button>
+                <button type="button" class="box box3 circulo" id="btnRojo"></button>
+                <button type="button" class="box box4 circulo" id="btnRosa"></button>
+                <button type="button" class="box box5 circulo" id="btnNaranja"></button>
+                <button type="button" class="box box6 circulo" id="btnAmarillo"></button>
+                <button type="button" class="box box7 circulo" id="btnVerde"></button>
+                <button type="button" class="box box8 circulo" id="btnGris"></button>
+                <button type="button" class="box box9 circulo" id="btnNegro"></button>
+                <button type="button" class="box box10 circulo" id="btnBlanco"></button>
+            </section>
+            <section class="sidebar-content container space-around">
+                <h2>Lápiz</h2>
+                <div class="boxT circulo p_pequeno" id="grueso1" ></div>
+                <div class="boxT circulo p_mediano" id="grueso2" ></div>
+                <div class="boxT circulo p_grande" id="grueso3" ></div>
+                <div class="boxT goma" id="Borrar" >Goma</div>
+            </section>
+            <section class="creditos">
+                <div class="box">Créditos: BAries &copy</div>
+            </section>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script src="./functions.js"></script>
+</body>
+</html>

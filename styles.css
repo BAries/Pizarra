@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+/* Paleta de colores */
+.first-color { 
+	background: #f5f0e8; 
+}
+	
+.second-color { 
+	background: #d3bd9a; 
+}
+
+.third-color { 
+	background: #a28f70; 
+}
+
+.fourth-color { 
+	background: #674f04; 
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: content-box;
+}
+/* header {
+
+} */
+
+main {
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizarra {
+    border: .2rem solid #674f04;
+    min-width: 400px;
+    flex-basis: 74%;
+    flex-grow: 1;
+}
+.sidebar{
+    border: .2rem solid #674f04;
+    min-height: 70px;
+    width: border-box;
+    flex-basis: 24%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #674f04;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar-content {
+    min-height: 70px;
+    flex-grow: 1;
+    flex-basis: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+.box {
+    margin: .25rem;
+    height: 3rem;
+    flex-basis: 3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: red;
+}
+.box4 {
+    background-color: pink;
+}
+.box5 {
+    background-color: orange;
+}
+.box6 {
+    background-color: yellow;
+}
+.box7 {
+    background-color: green;
+}
+.box8 {
+    background-color: grey;
+}
+.box9 {
+    background-color: black;
+}
+.box10 {
+    background-color: white;
+}
+
+.circulo {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.boxT {
+    margin: .25rem;
+    height: 3rem;
+}
+
+.p_pequeno {
+    background-color: black;
+    height: 3px;
+    width: 3px;
+}
+
+.p_mediano {
+    background-color: black;
+    height: 6px;
+    width: 6px;
+}
+
+.p_grande {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+
+.goma {
+    height: 2rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: .4rem;
+}
+
+.creditos {
+    flex-grow: 1;
+    flex-basis: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
